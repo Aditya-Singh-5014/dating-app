@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/messages";
+const API_URL = "https://dating-app-backend-c3oz.onrender.com/src/messages";
 
 export const sendMessage = (messageData) => {
   return axios.post(`${API_URL}/send`, messageData, {
