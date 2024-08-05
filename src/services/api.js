@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/src",
+  baseURL: "https://dating-app-backend-c3oz.onrender.com/src",
 });
 
 export default api;

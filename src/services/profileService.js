@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/src/profile";
+const API_URL = "https://dating-app-backend-c3oz.onrender.com/src/profile";
 
 export const getProfile = () => {
   return axios.get(API_URL, {

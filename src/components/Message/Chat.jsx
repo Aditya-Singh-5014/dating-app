@@ -16,7 +16,7 @@ const Chat = ({ userId }) => {
   );
 
   const sendWebSocketMessage = useWebSocket(
-    "ws://localhost:5000",
+    "ws://dating-app-backend-c3oz.onrender.com",
     handleWebSocketMessage
   );
 
